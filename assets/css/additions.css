@@ -62,7 +62,7 @@ ul.checklist {
 				}
 
 				ul.checklist li:before {
-					content: '\f006';
+					content: '\f005';
 					margin-right: 0.75em;
 				}
 
