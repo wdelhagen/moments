@@ -54,13 +54,18 @@ window.onload = function() {
     var image = container.getElementsByTagName('img').item(0);
     var download = document.getElementById('download');
     var actions = document.getElementById('actions');
+    // Factor to zoom out when initializing Cropper to make room to expand crop beyond image edge
+    var expansionFactor = -0.1;
     var options = {
         aspectRatio: 1.5,
         preview: '.img-preview',
         ready: function(e) {
             console.log(e.type);
+            console.log(e.srcElement.cropper);
             // size the preview mask to fit in the preview div
             resizePreviewMask();
+            // Zoom out by 10%
+            e.srcElement.cropper.zoom(expansionFactor);
         },
         cropstart: function(e) {
             console.log(e.type, e.detail.action);
@@ -80,14 +85,14 @@ window.onload = function() {
             console.log(e.type, e.detail.ratio);
         },
         viewMode: 0,
-        dragMode: 'move'
+        dragMode: 'move',
+        zoomOnWheel: false
     };
     var cropper = new Cropper(image, options);
     var originalImageURL = image.src;
     var uploadedImageType = 'image/jpeg';
     var uploadedImageName = 'cropped.jpg';
     var uploadedImageURL;
-    var expansionFactor = 0.1;
 
     // Tooltip
     $('[data-toggle="tooltip"]').tooltip();
@@ -144,6 +149,8 @@ window.onload = function() {
                     console.log('ready');
                     // resize the preview mask when we switch orientation
                     resizePreviewMask();
+                    // Zoom out a bit to leave room around image for bleed border
+                    cropper.zoom(expansionFactor);
                 };
             }
 

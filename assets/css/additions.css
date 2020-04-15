@@ -18,8 +18,9 @@
 }
 
 .preview_heading {
-	font-size: 1em;
+	font-size: 1.5em;
 	color: #ff0000 !important;
+	font-weight: bold;
 }
 
 .order_list {
