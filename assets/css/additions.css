@@ -1,3 +1,38 @@
+.stages_logo {
+	font-size: 1.25em;
+  color: #3498db;
+}
+
+.stage_text {
+	width:10%;
+	margin-right: 5%;
+	font-size:2em;
+	padding-top:1%;
+		font-weight: bold;
+}
+
+.current {
+	color: #3498db !important;
+}
+
+.stage_image.current {
+	opacity: 100%;
+}
+
+.stage_image.inactive {
+	opacity: 60%;
+}
+
+.stage_image {
+	width:5%;
+	margin-left: 5%;
+	margin-right: 2%;
+}
+
+.stage_arrow {
+	font-size:4em;
+}
+
 .section_heading {
 	color: #3498db !important;
 }
