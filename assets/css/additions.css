@@ -11,6 +11,11 @@
 		font-weight: bold;
 }
 
+.white_button {
+	background-color: #fff !important;
+  color: #3498db !important;
+}
+
 .current {
 	color: #3498db !important;
 }
