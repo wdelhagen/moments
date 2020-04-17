@@ -1,3 +1,15 @@
+.crop_gif {
+	border: 10px;
+	border-color: #ffffff;
+	border-style: solid;
+	border-radius: 5px;
+	margin-bottom: 2%;
+}
+
+.btn.get_started {
+	color: #ffffff !important;
+}
+
 .wrapper.noheader {
 	padding: 1em 0 4em 0;
 }
@@ -87,11 +99,11 @@ ul.checklist {
 		}
 
     ul.checklist li:before {
-		color: #00BC8A;
+		color: #3498db;
 	}
 
 	ul.contact li:before {
-		color: #00BC8A;
+		color: #3498db;
 	}
 
 			ul.checklist li {
