@@ -256,7 +256,7 @@ window.onload = function() {
 
                         if (!download.disabled) {
                             // download.download = uploadedImageName;
-                            download.download = "MOMENTS_CROPPED_" + uploadedImageName;
+                            download.download = "MOMENTS_CROP_" + uploadedImageName;
                             download.href = result.toDataURL(uploadedImageType);
                             download.click();
                         }
