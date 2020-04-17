@@ -12,7 +12,7 @@
 
 .btn.get_started {
 	color: #ffffff !important;
-	text-decoration: none;
+	text-decoration: none !important;
 }
 
 .wrapper.noheader {
