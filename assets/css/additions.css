@@ -6,12 +6,20 @@
 	margin-bottom: 2%;
 }
 
+.next_row {
+	margin-top:20px;
+}
+
 .btn.get_started {
 	color: #ffffff !important;
 }
 
 .wrapper.noheader {
-	padding: 1em 0 4em 0;
+	padding: 1em 0 1em 0;
+}
+
+.stage_path {
+	margin-top: 70px;
 }
 
 .stages_header {
