@@ -6,6 +6,23 @@
 	margin-bottom: 2%;
 }
 
+.no_margin {
+	margin-bottom: 0.25em !important;
+}
+
+.feelings {
+	/* background-color: #ffffff; */
+	/* color: #3498db; */
+	color: #ffffff;
+	padding: 0.25em;
+	margin: 10px;
+	border-radius: 5px;
+	border: solid 1px;
+	border-color: #ffffff;
+	font-weight: bold;
+	/* box-shadow: 2px 2px #888888; */
+}
+
 .next_row {
 	margin-top:20px;
 }
@@ -38,7 +55,7 @@
 	margin-right: 5%;
 	font-size:2em;
 	padding-top:1%;
-		font-weight: bold;
+	font-weight: bold;
 }
 
 .white_button {
