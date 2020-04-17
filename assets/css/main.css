@@ -1602,20 +1602,12 @@
 				font-size: 11pt;
 			}
 
-			.crop_gif {
-				width: 100%;
-			}
-
 		}
 
 		@media screen and (max-width: 1280px) {
 
 			body, input, select, textarea {
 				font-size: 11pt;
-			}
-
-			.crop_gif {
-				width: 100%;
 			}
 
 		}
@@ -1626,10 +1618,6 @@
 				font-size: 12pt;
 			}
 
-			.crop_gif {
-				width: 100%;
-			}
-
 		}
 
 		@media screen and (max-width: 736px) {
@@ -1638,20 +1626,12 @@
 				font-size: 12pt;
 			}
 
-			.crop_gif {
-				width: 90%;
-			}
-
 		}
 
 		@media screen and (max-width: 480px) {
 
 			body, input, select, textarea {
 				font-size: 12pt;
-			}
-
-			.crop_gif {
-				width: 70%;
 			}
 
 		}
