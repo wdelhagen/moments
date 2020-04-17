@@ -2905,6 +2905,7 @@
 
 			.wrapper.style1 a {
 				color: #000;
+				text-decoration: underline;
 			}
 
 				.wrapper.style1 a:hover {
@@ -3117,6 +3118,7 @@
 
 			.wrapper.style2 a {
 				color: #ffffff;
+				text-decoration: underline;
 			}
 
 				/* .wrapper.style2 a:hover {
